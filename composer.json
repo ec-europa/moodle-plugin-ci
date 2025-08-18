@@ -37,8 +37,16 @@
   },
   "repositories": [
     {
-      "type": "vcs",
-      "url": "https://github.com/moodlehq/moodle-local_ci.git"
+      "type": "package",
+      "package": {
+        "name": "moodlehq/moodle-local_ci",
+        "version": "1.1.2",
+        "source": {
+          "url": "https://github.com/moodlehq/moodle-local_ci.git",
+          "type": "git",
+          "reference": "v1.1.2"
+        }
+      }
     },
     {
       "type": "package",
