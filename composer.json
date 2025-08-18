@@ -4,6 +4,7 @@
   "keywords": ["moodle", "travis", "ci", "testing", "github", "actions"],
   "type": "library",
   "license": "GPL-3.0-or-later",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Eloy Lafuente",
