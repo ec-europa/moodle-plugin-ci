@@ -2,7 +2,7 @@
   "name": "moodlehq/moodle-plugin-ci",
   "description": "Helps running Moodle plugins analysis checks and tests under various CI environments.",
   "keywords": ["moodle", "travis", "ci", "testing", "github", "actions"],
-  "type": "project",
+  "type": "library",
   "license": "GPL-3.0-or-later",
   "authors": [
     {
@@ -102,13 +102,5 @@
   },
   "bin": [
     "bin/moodle-plugin-ci"
-  ],
-  "scripts": {
-    "post-install-cmd": "@local-ci-install",
-    "post-update-cmd": "@local-ci-install",
-    "post-create-project-cmd": "@local-ci-install",
-    "local-ci-install": [
-      "cd vendor/moodlehq/moodle-local_ci && npm install --no-progress"
-    ]
-  }
+  ]
 }
